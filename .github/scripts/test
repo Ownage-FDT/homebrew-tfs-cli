@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+set -ex
+
+brew update
+brew install Formula/tfs.rb
+brew link --overwrite tfs
+tfs help
+brew uninstall Formula/tfs.rb
