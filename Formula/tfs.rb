@@ -5,26 +5,26 @@
 class Tfs < Formula
     desc "Share files seamlessly without leaving your terminal"
     homepage "https://trytfs.com"
-    url "https://tfs-cli-assets.nyc3.digitaloceanspaces.com/versions/1.0.0/af5d431/tfs-v1.0.0-af5d431-darwin-x64.tar.gz"
-    sha256 "378873d859086ec483193725cc40ac412d179e33085c46aaec733d644181d9ae"
+    url "https://tfs-cli-assets.nyc3.digitaloceanspaces.com/versions/1.0.0/b8bf911/tfs-v1.0.0-b8bf911-darwin-x64.tar.gz"
+    sha256 "5ae99e0ce93b0abf9c998ad488ae058814dc5112a31f930243734de328ab5422"
     version "1.0.0"
     version_scheme 1
   
     on_macos do
       on_arm do
-        url "https://tfs-cli-assets.nyc3.digitaloceanspaces.com/versions/1.0.0/af5d431/tfs-v1.0.0-af5d431-darwin-arm64.tar.gz"
-        sha256 "a4b2ebc888d141f4bce90771477245f9ade47ad616f204d218e829f6199e26a9"
+        url "https://tfs-cli-assets.nyc3.digitaloceanspaces.com/versions/1.0.0/b8bf911/tfs-v1.0.0-b8bf911-darwin-arm64.tar.gz"
+        sha256 "9e0a8f9ac168de74132224642abdcb65a8bc2c43bd4ee4be4e903c06cb9720b7"
       end
     end
   
     on_linux do
       on_intel do
-        url "https://tfs-cli-assets.nyc3.digitaloceanspaces.com/versions/1.0.0/af5d431/tfs-v1.0.0-af5d431-linux-x64.tar.gz"
-        sha256 "6d13a9a859965620e8cb81e755fac0bb35a92b029158c9c2a4b90596eb30a82d"
+        url "https://tfs-cli-assets.nyc3.digitaloceanspaces.com/versions/1.0.0/b8bf911/tfs-v1.0.0-b8bf911-linux-x64.tar.gz"
+        sha256 "8a898a044c5485eb91eded295e10ad564016824e55a7f0d916ce259066cf14bc"
       end
       on_arm do
-        url "https://tfs-cli-assets.nyc3.digitaloceanspaces.com/versions/1.0.0/af5d431/tfs-v1.0.0-af5d431-linux-arm.tar.gz"
-        sha256 "f34328a68a9d0d00a26fd4920e26378853e0d5b39b99187d343a45d9c33d4a95"
+        url "https://tfs-cli-assets.nyc3.digitaloceanspaces.com/versions/1.0.0/b8bf911/tfs-v1.0.0-b8bf911-linux-arm.tar.gz"
+        sha256 "b29b095fbad359844fab1fb328f03e3eb6944ff178105a57d6d7fe363cde7215"
       end
     end
   
